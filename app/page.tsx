@@ -208,7 +208,7 @@ export default function Home() {
                                     <div>
                                         <h3 className="font-bold">Adres</h3>
                                         <p className="text-muted-foreground">
-                                            Kurtuluş mah. Ramazanoğlu cad. Pandora sok. İş Apartmanı No:6/D Adana/Ziyapaşa
+                                            Kurtuluş mah. Ramazanoğlu cad. Pandora sok. İş Apartmanı No:6/D Seyhan/Adana
                                         </p>
                                     </div>
                                 </div>
