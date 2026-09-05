@@ -19,7 +19,17 @@ const config = {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ["var(--font-manrope)", "ui-sans-serif", "system-ui", "sans-serif"],
+        display: ["var(--font-sora)", "ui-sans-serif", "system-ui", "sans-serif"],
+      },
       colors: {
+        ink: "hsl(var(--ink))",
+        paper: "hsl(var(--paper))",
+        "paper-2": "hsl(var(--paper-2))",
+        mist: "hsl(var(--mist))",
+        slate: "hsl(var(--slate))",
+        signal: "hsl(var(--signal))",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
