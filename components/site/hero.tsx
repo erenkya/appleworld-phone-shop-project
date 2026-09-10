@@ -1,9 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { motion, useReducedMotion, type Variants } from "framer-motion";
 import { Parallax } from "@/components/motion/parallax";
+import { HeroSlider } from "@/components/site/hero-slider";
 import { whatsappLink } from "@/lib/site";
 
 const EASE = [0.22, 1, 0.36, 1] as const;
@@ -92,16 +92,7 @@ export function Hero() {
           className="relative mx-auto mt-14 max-w-4xl md:mt-20"
         >
           <Parallax distance={reduce ? 0 : 36}>
-            <div className="relative aspect-[16/10] overflow-hidden rounded-[1.75rem] border border-mist bg-paper-2 shadow-[0_40px_120px_-40px_rgba(10,10,11,0.35)]">
-              <Image
-                src="/assets/iphone__kqge21l9n26q_og.png"
-                alt="iPhone ailesi"
-                fill
-                priority
-                sizes="(max-width: 768px) 100vw, 900px"
-                className="object-cover"
-              />
-            </div>
+            <HeroSlider />
           </Parallax>
         </motion.div>
       </div>

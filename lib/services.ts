@@ -24,8 +24,8 @@ export const services: ServiceCategory[] = [
       "Sıfır kapalı kutu ve mağaza garantili ikinci el cihazlar, değerinde takas ve kurumsal tedarik.",
     summary:
       "En güncel iPhone, iPad ve Apple Watch modellerinden titizlikle test edilmiş ikinci el cihazlara; eski telefonunuzu getirip yenisine anında geçmenizi sağlayan takas desteğine kadar tüm satış süreci mağaza güvencesiyle.",
-    image: "/assets/product_color_blueBlack_plus_PC.png",
-    imageAlt: "Mavi ve siyah renk seçenekleriyle iPhone",
+    image: "/assets/iphone-crimson.webp",
+    imageAlt: "Yeni nesil iPhone Crimson Titanyum",
     items: [
       {
         title: "Sıfır ve kapalı kutu cihazlar",
@@ -77,8 +77,8 @@ export const services: ServiceCategory[] = [
       "MagSafe ve şarj teknolojileri, askeri standart koruma, ekran koruma sistemleri, ses ve araç içi çözümler.",
     summary:
       "Orijinal adaptörlerden askeri standart kılıflara, tozsuz aparatlı ekran koruyucu montajından araç içi MagSafe çözümlerine kadar cihazınızı hem koruyan hem tamamlayan bir aksesuar seçkisi.",
-    image: "/assets/Apple-AirPods-hero-240909-lp.jpg.og.jpg",
-    imageAlt: "Apple AirPods",
+    image: "/assets/apple-accessories.jpg",
+    imageAlt: "Apple MagSafe kılıf, cüzdan ve şarj aksesuarları",
     items: [
       {
         title: "MagSafe ve şarj teknolojileri",
@@ -221,8 +221,8 @@ export const services: ServiceCategory[] = [
       "Sıfır veri kaybıyla aktarım, yazılım kurtarma ve güncelleme, profesyonel veri kurtarma, Apple ekosistem eğitimi.",
     summary:
       "Android'den iPhone'a geçişte WhatsApp geçmişi dahil eksiksiz aktarım, Apple logosunda kalan cihazların kurtarılması, yanlışlıkla silinen dosyaların geri getirilmesi ve ilk kez Apple kullananlar için birebir eğitim.",
-    image: "/assets/iphone__kqge21l9n26q_og.png",
-    imageAlt: "iPhone ekranı",
+    image: "/assets/iphone-duo.jpg",
+    imageAlt: "Katlanabilir iPhone Duo ve iOS arayüzü",
     items: [
       {
         title: "Güvenli veri aktarımı",
